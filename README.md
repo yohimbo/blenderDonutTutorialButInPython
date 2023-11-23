@@ -38,3 +38,6 @@ bpy.ops.transform.resize(value=(0.033,0.033,0.033))
 
 bpy.ops.object.transform_apply(scale=True)
 ```
+
+# Flat and Smooth Shading 
+bpy.ops.object.shade_smooth()
