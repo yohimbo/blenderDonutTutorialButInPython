@@ -33,6 +33,7 @@ Next we need to select the object to begin working with it so we have donut!!!!
 `donut = bpy.context.active_object`
 
 ## Real World Measurements & Applying Scale
+
 ```python
 bpy.ops.transform.resize(value=(0.033,0.033,0.033))
 
@@ -45,5 +46,8 @@ bpy.ops.object.transform_apply(scale=True)
 ## Subsurf Modifier
 
 The full list of Object Modifier Type Items -> [here](https://docs.blender.org/api/current/bpy_types_enum_items/object_modifier_type_items.html#rna-enum-object-modifier-type-items)
-```bpy.ops.object.modifier_add(type='SUBSURF')```
+
+```python
+bpy.ops.object.modifier_add(type='SUBSURF')
+```
 
