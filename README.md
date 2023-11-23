@@ -19,7 +19,7 @@ Import the blender python [package](https://pypi.org/project/bpy/) and math beca
 First we set the donut :doughnut: settings to initial state. A fat donut :doughnut: as Blender Guru states: 
 
 ```python
-bpy.ops.mesh.primitive_torus_add(major_segments=40,minor_segments=16,major_radius=0.91,minor_radius=0.61)```
+bpy.ops.mesh.primitive_torus_add(major_segments=40,minor_segments=16,major_radius=0.91,minor_radius=0.61)
 ```
 
 * Major Segments, Number of segments for the main ring of the torus :ox:
