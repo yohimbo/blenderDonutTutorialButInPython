@@ -30,4 +30,6 @@ bpy.ops.mesh.primitive_torus_add(major_segments=40,minor_segments=16,major_radiu
 Next we need to select the object to begin working with it so we have donut!!!!
 `donut = bpy.context.active_object`
 
+```python
 bpy.ops.transform.resize(value=(0.033,0.033,0.033))
+```
