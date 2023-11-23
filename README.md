@@ -51,3 +51,5 @@ The full list of Object Modifier Type Items -> [here](https://docs.blender.org/a
 bpy.ops.object.modifier_add(type='SUBSURF')
 ```
 
+## Proportional Editing
+
