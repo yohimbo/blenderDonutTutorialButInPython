@@ -39,5 +39,11 @@ bpy.ops.transform.resize(value=(0.033,0.033,0.033))
 bpy.ops.object.transform_apply(scale=True)
 ```
 
-# Flat and Smooth Shading 
+## Flat and Smooth Shading 
 ```bpy.ops.object.shade_smooth()```
+
+## Subsurf Modifier
+
+The full list of Object Modifier Type Items -> [here](https://docs.blender.org/api/current/bpy_types_enum_items/object_modifier_type_items.html#rna-enum-object-modifier-type-items)
+```bpy.ops.object.modifier_add(type='SUBSURF')```
+
