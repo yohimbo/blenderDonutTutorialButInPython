@@ -40,4 +40,4 @@ bpy.ops.object.transform_apply(scale=True)
 ```
 
 # Flat and Smooth Shading 
-bpy.ops.object.shade_smooth()
+```bpy.ops.object.shade_smooth()```
